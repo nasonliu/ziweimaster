@@ -1,0 +1,39 @@
+{
+  "name": "ziweimaster",
+  "version": "0.1.0",
+  "description": "Ziwei Dou Shu charting, palace inspection, and MCP tools for Codex.",
+  "author": {
+    "name": "ZiweiMaster contributors"
+  },
+  "homepage": "https://github.com/nasonliu/ziweimaster",
+  "repository": "https://github.com/nasonliu/ziweimaster",
+  "license": "MIT",
+  "keywords": [
+    "ziwei",
+    "紫微斗数",
+    "命盘",
+    "mcp",
+    "fortune",
+    "astrology"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "ZiweiMaster",
+    "shortDescription": "Use structured Ziwei Dou Shu chart tools in Codex.",
+    "longDescription": "ZiweiMaster exposes Ziwei Dou Shu charting and palace-inspection tools to Codex through MCP. It can generate natal charts, decade charts, annual charts, LLM-ready analysis payloads, inspect a palace as if clicked in the UI, resolve China prefecture-level birthplaces for true solar time, and parse common Chinese natural-language birth inputs.",
+    "developerName": "ZiweiMaster contributors",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "websiteURL": "https://github.com/nasonliu/ziweimaster",
+    "defaultPrompt": [
+      "用 ZiweiMaster 帮我根据出生资料生成命盘并分析",
+      "检查某个流年宫位的三方四正和宫干四化",
+      "从自然语言出生资料解析并生成紫微分析 payload"
+    ],
+    "brandColor": "#0F766E"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "ziweimaster": {
+      "title": "ZiweiMaster MCP",
+      "description": "Generate Ziwei Dou Shu charts, inspect palaces, read Sanfang Sizheng relations, and build structured analysis payloads.",
+      "cwd": ".",
+      "command": "node",
+      "args": [
+        "./dist/mcp/server.js"
+      ]
+    }
+  }
+}
